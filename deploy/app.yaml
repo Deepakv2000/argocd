@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: php-application
-        image: tomcat
+        image: nginx
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         resources:
           limits:
             cpu: 500m

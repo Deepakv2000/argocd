@@ -7,9 +7,5 @@ metadata:
 spec:
   restartPolicy: Never
   containers:
-    - name: cont-1
-      image: alpine
-      command: ["/bin/sh", "-c", "sleep 5000"]
-
     - name: cont-2
       image: nginx
